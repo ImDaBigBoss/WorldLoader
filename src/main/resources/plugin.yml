@@ -1,0 +1,12 @@
+name: WorldLoader
+version: ${project.version}
+main: com.github.imdabigboss.worldloader.WorldLoader
+api-version: 1.17
+
+commands:
+  worldloader:
+    permission: worldloader.worldloader
+
+permissions:
+  worldloader.worldloader:
+    default: true
